@@ -1,0 +1,92 @@
+body{
+    background-color: darkkhaki;
+    margin: 0;
+}
+#keret{
+    max-width: 1300px;
+    margin: auto;
+}
+#tartalom{
+    width: 70%;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 15%;
+    position: relative;
+}
+#bal{
+    background-image: url('bal.jpg');
+    width: 5%;
+    height: 300px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 0;
+    border: none;
+}
+#képek{
+    width: 90%;
+    height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+#képek img{
+    width: 819px;
+    height: 300px;
+}
+#ismeret{ 
+    background-color: rgba(156, 55, 55, 0.3);
+    width: 90%;
+    position: absolute;
+    bottom:  0%;
+    left: 5%;
+}
+h3,p {
+    margin: 6px;
+    color: rgb(42, 122, 60);
+}
+#jobb{
+    background-image: url('bal.jpg');
+    width: 5%;
+    height: 300px;
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    transform: rotate(180deg);
+    padding: 0;
+    border: none;
+}
+#kicsik{
+    width: 70%;
+    position: fixed;
+    top: 450px;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+}
+#kicsik img{
+    width: 50px;
+    margin: 0px 10px;
+    padding: 3px;
+}
+.keret{
+    border: 2px solid rgb(42, 122, 60);
+}
+.rejt{
+    display: none;
+    position: relative;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.fölé:hover .rejt{
+    display: block;
+  }
+
+
+ 

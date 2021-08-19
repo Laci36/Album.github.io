@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stilus.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="esemény.js"></script>
+</head>
+<body>
+    <div id="keret">
+        <div id="tartalom"> 
+
+            <button id="bal" onclick="csökken()">     
+            </button>
+
+            <div id="képek">
+                <img id="kép" src='1.jpg'>
+            </div>
+            <div id="ismeret">
+                <h3 id="kép-cím">Induló kép</h3>
+                <p id="kép-leírás">A hegy és vízpart   </p>
+            </div>
+
+            <button id="jobb" onclick="növel()">
+            </button>
+        </div>
+        <div id="kicsik">
+            <div class="fölé">
+                <div class="rejt">Induló</div>
+                <img class="keret" src="1.jpg" alt="0"  onclick="forrás=images[1].alt; képvált()">
+            </div>
+            <div class="fölé">
+                <div class="rejt">Második</div>
+                <img  src="2.jpg" alt="1"  onclick="forrás=images[2].alt; képvált()">
+            </div>
+            <div class="fölé">
+                <div class="rejt">Harmadik</div>
+                <img  src="3.jpg" alt="2" onclick="forrás=images[3].alt; képvált()">
+            </div>
+            <div class="fölé">
+                <div class="rejt">Negyedik</div>
+                <img  src="4.jpg" alt="3" onclick="forrás=images[4].alt; képvált()">
+            </div>
+            <div class="fölé">
+                <div class="rejt">Ötödik</div>
+                <img  src="5.jpg" alt="4" onclick="forrás=images[5].alt; képvált()">
+            </div>
+            <div class="fölé">
+                <div class="rejt">Hatodik</div>
+                <img  src="6.jpg" alt="5" onclick="forrás=images[6].alt; képvált()">
+            </div>
+            <div class="fölé">
+                <div class="rejt">Hetedik</div>
+                <img  src="7.jpg" alt="6" onclick="forrás=images[7].alt; képvált()">
+            </div>
+            <di class="fölé"v>
+                <div class="rejt">Utolsó</div>
+                <img  src="8.jpg" alt="7" onclick="forrás=images[8].alt; képvált()">
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
